@@ -1,0 +1,7 @@
+<h1><%= @category.name%></h1>
+<%= link_to "Back", categories_path %> |
+<%= link_to "New Article", new_category_article_path(@category) %>
+
+<h2>Articles:</h2>
+
+<%= render @category.articles %>

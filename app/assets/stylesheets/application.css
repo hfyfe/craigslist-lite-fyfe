@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+
+body {
+  margin: 0 auto;
+  text-align: center ;
+}
+
+.category {
+  font-family: "Comic Sans MS" ;
+  background-color: #dddddd;
+  width: 50% ;
+  margin: 0 auto;
+}
+
+.category p {
+  font-style: italic;
+}
+
+.category h3 {
+
+}
+
+.article {
+  font-family: "Comic Sans MS";
+  background-color: #dddddd;
+   width: 50% ;
+   margin: 0 auto;
+}

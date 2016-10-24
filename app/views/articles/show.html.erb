@@ -1,0 +1,12 @@
+<div id="article">
+  <h1><%= @article.title%></h1>
+  <p>In <%= @article.category.name%></p>
+  <p>By: <%= @article.author%></p>
+  <i>Contact: <%= @article.contact_email%></i><br/>
+  <p><%= @article.description%></p>
+  <%= link_to "back" , category_path(@article.category)%>
+</div>
+
+<% if @key %>
+  <p>Your Key Is <%= @key %></p>
+<% end %>
