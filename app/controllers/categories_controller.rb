@@ -23,12 +23,6 @@ class CategoriesController < ApplicationController
     end
   end
 
-  def edit
-  end
-
-  def delete
-  end
-
   private
 
   def category_params

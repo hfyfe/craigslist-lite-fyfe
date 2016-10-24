@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
-  has_many :articles
+  has_many :articles, dependent: :destroy
 
   validates_uniqueness_of :name
   validates :name , {presence: true}
